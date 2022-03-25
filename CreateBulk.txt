@@ -1,0 +1,81 @@
+mutation{​​​​​​​
+  createBulkCgBudgetOutputProjectAllocations(data: {​​​​​​​
+    records: [ 
+  {​​​​​​​
+    Budget_Output_ID: 85
+    Budget_Output_Project_Allocation_ID: 2
+    Created_By: "arun"
+    Modified_By: ""
+    Project_ID: 27
+    Stage: 1
+    Y0_AIA: 0
+    Y0_Ext_Fin: 0
+    Y0_GoU: 0
+    Y1_AIA: 1.7546788
+    Y1_Ext_Fin: 0.477544
+    Y1_GoU: 1.23111
+    Year_ID: 17
+
+
+  }​​​​​​​
+    ]
+  }​​​​​​​){​​​​​​​
+    Budget_Output_Project_Allocation_ID
+    
+  }​​​​​​​
+}​​​​​​​
+
+
+
+=====================================================================
+
+
+mutation{
+  createBulkCgBudgetOutputProjectAllocations(data: {
+    records: [
+  {
+  Budget_Output_ID: 85
+    Budget_Output_Project_Allocation_ID: 2
+    Created_By: "arun"
+    Modified_By: ""
+    Project_ID: 27
+    Stage: 1
+    Y1_AIA: 1.7546788
+    Y1_Ext_Fin: 0.477544
+    Y1_GoU: 1.23111
+    Year_ID: 17
+  Amount_Allocated_To_VFO:0
+  Y0_Planned_Output:""
+  Y1_Wage:0
+  Y1_NonWage:0
+  Y1_Planned_PNt_App_For_CGV:0
+  Y1_Planned_Activity_Nt_App_for_CGV:0
+Y0_Planned_PNt_App_For_CGV:0
+Y1Q1_Wage_for_CG_CalfromCf:0
+Y1Q2_Wage_for_CG_CalfromCf:0
+Y1Q3_Wage_for_CG_CalfromCf:0
+Y1Q4_Wage_for_CG_CalfromCf:0
+Y1Q1_NonWage_For_CG_CalfromCf:0
+Y1Q2_NonWage_For_CG_CalfromCf:0
+Y1Q3_NonWage_For_CG_CalfromCf:0
+Y1Q4_NonWage_For_CG_CalfromCf:0
+Y1Q1_GoU_For_CG_CalfromCf:0
+Y1Q2_GoU_For_CG_CalfromCf:0
+Y1Q3_GoU_For_CG_CalfromCf:0
+Y1Q4_GoU_For_CG_CalfromCf:0
+Y1_Actual_Wage_Q1_Nt_App_For_CGV:0
+Y1_Actual_NonWage_Q1_Nt_App_For_CGV:0
+Y1_Actual_GoU_Q1_Nt_App_For_CGV:0
+Y1_Actual_Ext_Fin_Q1_Nt_App_For_CGV:0
+Y1_Actual_AIA_Q1_Nt_App_For_CGV:0
+Q1_Variation:""
+Q2_Variation:""
+Q3_Variation:""
+Q4_Variation:""
+  }
+    ]
+  }){
+    Budget_Output_Project_Allocation_ID
+   
+  }
+}
